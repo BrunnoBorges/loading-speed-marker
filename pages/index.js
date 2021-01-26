@@ -215,24 +215,24 @@ const Loading = styled.div`
 export default function Home() {
   return (
     <Container>
-            <Loader>
-                <Line />
-                <Line />
-                <Line />
-                <Line />
-                <Line />
-                <Line />
-                <Subline />
-                <Subline />
-                <Subline />
-                <Subline />
-                <Subline />
-                <LoaderCircleOne>
-                  <LoaderCirleTwo />
-                </LoaderCircleOne>
-                <Needle />
-                <Loading> Aquecendo motores ...</Loading>
-            </Loader>
-        </Container>
+      <Loader>
+        <Line />
+        <Line />
+        <Line />
+        <Line />
+        <Line />
+        <Line />
+        <Subline />
+        <Subline />
+        <Subline />
+        <Subline />
+        <Subline />
+        <LoaderCircleOne>
+          <LoaderCirleTwo />
+        </LoaderCircleOne>
+        <Needle />
+        <Loading> Aquecendo motores ...</Loading>
+      </Loader>
+    </Container>
   )
 }
